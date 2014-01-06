@@ -21,6 +21,7 @@
 		01761CF618770307006E466B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01761CD818770306006E466B /* UIKit.framework */; };
 		01761CFE18770307006E466B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01761CFC18770307006E466B /* InfoPlist.strings */; };
 		01761D0018770307006E466B /* CreateCalendarEventTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01761CFF18770307006E466B /* CreateCalendarEventTests.m */; };
+		01761D0A1877031A006E466B /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01761D091877031A006E466B /* EventKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		01761CFB18770307006E466B /* CreateCalendarEventTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CreateCalendarEventTests-Info.plist"; sourceTree = "<group>"; };
 		01761CFD18770307006E466B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		01761CFF18770307006E466B /* CreateCalendarEventTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreateCalendarEventTests.m; sourceTree = "<group>"; };
+		01761D091877031A006E466B /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01761D0A1877031A006E466B /* EventKit.framework in Frameworks */,
 				01761CD718770306006E466B /* CoreGraphics.framework in Frameworks */,
 				01761CD918770306006E466B /* UIKit.framework in Frameworks */,
 				01761CD518770306006E466B /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		01761CD318770306006E466B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				01761D091877031A006E466B /* EventKit.framework */,
 				01761CD418770306006E466B /* Foundation.framework */,
 				01761CD618770306006E466B /* CoreGraphics.framework */,
 				01761CD818770306006E466B /* UIKit.framework */,
